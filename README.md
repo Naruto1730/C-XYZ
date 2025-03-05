@@ -1,6 +1,6 @@
 # C-XYZ  
 
-C-XYZ is an open-source application designed for creating and managing code files, primarily for Java, but also supporting formats like `.json`, `.html`, and simple text files (`.txt`). Built around the **SoraEditor**, it offers an intuitive text-editing experience with optical text enhancement.  
+C-XYZ is an open-source application designed for creating and managing code files, primarily for Java, but also supporting formats like `.json`, `.html`, and simple text files (`.txt`). Built around the **SoraEditor**, it offers an intuitive text-editing experience with optical text enhancement.
 
 Beyond editing, CXYZ includes a file and folder management system, along with a built-in **terminal emulator** for executing commands and handling file operations directly. There are also **special predefined commands** for enhanced workflow automation.  
 
