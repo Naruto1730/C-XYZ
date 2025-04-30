@@ -22,7 +22,7 @@ import java.io.FileInputStream;
  * 
  * Support InfLps:
  * YouTube: https://youtube.com/@inflps
- * Telegram Group: https://t.me/infloops0000
+ * Telegram Group: https://t.me/inflps_channel
  * GitHub: https://github.com/InfiniteLoops87
  * 
  * WARNING:
