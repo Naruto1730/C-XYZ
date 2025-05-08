@@ -10,6 +10,3 @@ Beyond editing, CXYZ includes a file and folder management system, along with a 
 
 Originally released as a **Sketchware project** on the *SketchUb* platform on **February 2, 2021**, CXYZ was later made available as `.swb` files for *Sketchware Pro* and *Mod* users.
 
-
-***The app is being updated, after its completion, the source code will be available, thanks for your patience!***
-
