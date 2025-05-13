@@ -9,5 +9,5 @@ C-XYZ is an open-source application designed for creating and managing code file
 
 Beyond editing, CXYZ includes a file and folder management system, along with a built-in **terminal emulator** for executing commands and handling file operations directly. There are also **special predefined commands** for enhanced workflow automation.  
 
-Originally released as a **Sketchware project** on the *SketchUb* platform on **February 2, 2021**, CXYZ was later made available as `.swb` files for *Sketchware Pro* and *Mod* users.
+Originally released as a **Sketchware project** on the *Sketchub* platform on **February 2, 2021**, CXYZ was later made available as `.swb` files for *Sketchware Pro* and *Mod* users.
 
