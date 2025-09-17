@@ -1,34 +1,36 @@
 plugins {
-	id 'com.android.application'
+    id 'com.android.application'
 }
 
 android {
-	compileSdk 28
-	
-	useLibrary 'org.apache.http.legacy'
-	
-	defaultConfig {
-		applicationId "com.inflps.codexyz"
-		namespace "com.inflps.codexyz"
-		minSdkVersion 21
-		targetSdkVersion 28
-		versionCode 11
-		versionName "6.0"
-	}
-	
-	buildTypes {
-		release {
-			minifyEnabled false
-			proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-		}
-	}
+    namespace "com.inflps.codexyz"
+    compileSdk 34   // محدث لأحدث SDK (مطلوب مع AGP 8)
+
+    defaultConfig {
+        applicationId "com.inflps.codexyz"
+        minSdk 21
+        targetSdk 34   // محدث لأحدث SDK
+        versionCode 11
+        versionName "6.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // لو محتاج تستخدم مكتبات قديمة بتعتمد على org.apache.http
+    useLibrary 'org.apache.http.legacy'
 }
 
 dependencies {
-	implementation fileTree(dir: 'libs', include: ['*.jar'])
-	implementation 'androidx.appcompat:appcompat:1.4.0'
-	implementation 'com.google.android.material:material:1.6.1'
-	implementation 'com.github.bumptech.glide:glide:4.12.0'
-	implementation 'com.google.code.gson:gson:2.8.7'
-	implementation 'com.squareup.okhttp3:okhttp:3.9.1'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
 }
